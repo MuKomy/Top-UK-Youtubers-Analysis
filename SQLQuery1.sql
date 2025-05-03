@@ -64,3 +64,4 @@ where
 	OR total_videos IS NULL
 	OR total_views IS NULL
 ;
+
