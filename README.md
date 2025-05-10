@@ -1,19 +1,22 @@
 # 📹 Top UK YouTubers Analysis
-## Table of Contents
-- [Installation](#installation)
-- [Installation](#installation-2)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Troubleshooting](#troubleshooting)
 
 
-[Link to Installation](#project-overview)
-[Link to Installation](`#data-extraction-process`)
+
+
 
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
 **Tech Stack:** Python, Microsoft SQL Server, Excel, Power BI
+## Table of Contents
 
+- [Project Overview](#project-overview)
+- [Data Extraction Process](#data-extraction-process)
+- [Data Testing in Microsoft SQL Server](#api-reference)
+- [Power BI Visualization & Metrics](#power-bi-visualization-&-metrics)
+- [Excel Analysis & Business Modeling](#excel-analysis-&-business-modeling)
+- [In-Depth Analysis Findings](#in-depth-analysis-findings)
+    - [Comparison (Excel - SQL)](#comparison-(excel---sql))
+    - [Power BI Visualization & Metrics](#troubleshooting)
 ## 📊 Project Overview
 
 This project offers a comprehensive analysis of the top 100 UK-based YouTube channels, examining their subscriber counts, total views, video output, engagement rates, and potential commercial value. By leveraging data analytics, I've uncovered insights about content strategy effectiveness across different niches and identified patterns in viewer engagement.
@@ -260,15 +263,20 @@ Product Price:	 £5.00
 
 
 ## 📝 Conclusion
-I have gained a lot of skills and experiences from this project, ranging fro
+For content creators and marketers, these findings highlight the importance of strategic channel positioning, content cadence optimization, and niche selection when building a YouTube presence.
 
-### Next Steps
+## 👨‍💻 Skills Developed
+Through this comprehensive project, I've developed and demonstrated proficiency in several critical data analysis skills:
 
-- Incorporate temporal analysis to track growth patterns
-- Expand dataset to include international comparison
-- Develop predictive models for channel growth
-- Analyze content characteristics (video length, thumbnail style, etc.)
+- API Data Extraction: Mastered the YouTube API v3 for data collection, including handling authentication, pagination, rate limiting, and structured data parsing in Python.
+- SQL Data Management: Developed advanced SQL skills including data validation, integrity testing, complex query writing using CTEs, and statistical calculations through MSSQL Server.
+- Data Transformation & Modeling: Implemented ETL processes transforming raw API data into structured analytical datasets suitable for multi-platform analysis.
+- Business Intelligence Development: Created interactive Power BI dashboards featuring custom DAX measures and multi-dimensional visualizations revealing actionable insights.
+- Financial Modeling: Applied business analytics principles to translate digital engagement metrics into commercial valuation models including ROI calculations, conversion modeling, and revenue forecasting.
+- Data Validation & Testing: Implemented systematic data testing protocols ensuring integrity across platforms and calculations, including cross-validation between Excel and SQL.
+- Statistical Analysis: Applied statistical methods to identify significant patterns, outliers, and correlations within digital engagement metrics.
+- Data Visualization: Designed clear, compelling visualizations effectively communicating complex relationships and key performance indicators.
+- Documentation: Developed detailed technical documentation explaining methodology, findings, and implementation details for both technical and non-technical audiences.
 
----
+These skills provide a strong foundation for tackling increasingly complex data analytics challenges in digital marketing, content strategy, and business intelligence.
 
-*This project was completed as part of a data analytics portfolio demonstration using Python, SQL Server, Excel, and Power BI.*
