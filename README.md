@@ -272,8 +272,6 @@ Product Price:	 £5.00
 - LDShadowLady - While not the highest in views, she has the best engagement rate at with a strong profit.
 - Grian & TommyInnit - Excellent engagement and high profit.
 
-
-
 ## 📝 Conclusion
 For content creators and marketers, these findings highlight the importance of strategic channel positioning, content cadence optimization, and niche selection when building a YouTube presence.
 
@@ -291,4 +289,3 @@ Through this comprehensive project, I've developed and demonstrated proficiency 
 - Documentation: Developed detailed technical documentation explaining methodology, findings, and implementation details for both technical and non-technical audiences.
 
 These skills provide a strong foundation for tackling increasingly complex data analytics challenges in digital marketing, content strategy, and business intelligence.
-
