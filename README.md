@@ -15,11 +15,13 @@ An in-depth data exploration of the UK's most influential content creators on Yo
     - [Analysis by Views Per Video](#analysis-by-views-per-video)
     - [Analysis by Total Views](#analysis-by-total-views)
     - [Analysis by Video Output](#analysis-by-video-output)
-    - [Analysis by Subscribers)](#analysis-by-subscribers)
+    - [Analysis by Subscribers](#analysis-by-subscribers)
     - [Category-Specific Insights](#category-specific-insights)
         - [Entertainment Category](#entertainment-category)
         - [Music Category](#music-category)
         - [Gaming Category](#gaming-category)
+- [Conclusion](#conclusion)
+- [Skills Developed](#skills-developed)
 
 
 ## 📊 Project Overview
@@ -289,4 +291,4 @@ Through this comprehensive project, I've developed and demonstrated proficiency 
 - Documentation: Developed detailed technical documentation explaining methodology, findings, and implementation details for both technical and non-technical audiences.
 
 These skills provide a strong foundation for tackling increasingly complex data analytics challenges in digital marketing, content strategy, and business intelligence.
-
+## 
