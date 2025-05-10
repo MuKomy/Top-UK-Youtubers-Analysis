@@ -20,8 +20,8 @@ An in-depth data exploration of the UK's most influential content creators on Yo
         - [Entertainment Category](#entertainment-category)
         - [Music Category](#music-category)
         - [Gaming Category](#gaming-category)
-- [Conclusion](#conclusion)
-- [Skills Developed](#skills-developed)
+- [Conclusion](#-conclusion)
+- [Skills Developed](#-skills-developed)
 
 
 ## 📊 Project Overview
@@ -41,7 +41,7 @@ The extraction process was implemented in Python using the `google-api-python-cl
 ## 🧪 Data Testing in Microsoft SQL Server
 
 To ensure data quality and reliability, I conducted systematic testing in SQL Server:
-## Installation-2
+
 ```sql
 /*
 Data Quality Tests:
