@@ -1,4 +1,5 @@
 # 📹 Top UK YouTubers Analysis
+[Link to Installation](`#project-overview`)
 
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
@@ -77,6 +78,7 @@ WHERE
     OR total_videos IS NULL
     OR total_views IS NULL;
 ```
+![data-testing-output.png](/assets/images/data-testing-output.png)
 
 All tests passed successfully, confirming data integrity and readiness for analysis.
 
@@ -84,7 +86,7 @@ All tests passed successfully, confirming data integrity and readiness for analy
 
 After importing the validated data into Power BI, I established key metrics through DAX measures:
 
-```
+``` python
 Views/Video = 
 VAR videos = SUM(youtube_data_view[total_videos])
 VAR views = SUM(youtube_data_view[total_views])
@@ -92,19 +94,18 @@ VAR views_per_video = DIVIDE(views, videos, BLANK())
 RETURN views_per_video
 ```
 
-```
+``` python
 Engagement Rate = 
 VAR eng_rate = DIVIDE(youtube_data_view[Views/Video (M)]*1000000, SUM(youtube_data_view[total_subscribers]))
 RETURN eng_rate
 ```
 
-These metrics enabled creation of interactive dashboards visualizing:
-- Channel performance comparison
-- Category distribution analysis
-- Engagement rate benchmarks
-- Subscriber growth patterns
+For the dashboard mockup i used mokkup.ai
+![Mokkup Placeholder](/assets/images/mokkup.png)
 
-![Power BI Dashboard Placeholder]
+
+### Final Dashboard
+![Power BI Dashboard Placeholder](/assets/images/dashboard.png)
 
 ## 📊 Excel Analysis & Business Modeling
 
@@ -181,67 +182,76 @@ ORDER BY
     total_subscribers DESC;
 ```
 
-![Excel Analysis Placeholder]
+
 
 ## 🔬 In-Depth Analysis Findings
 
 ### Comparison (Excel - SQL)
 Cross-validation between Excel and SQL calculations showed perfect alignment, confirming computational accuracy across platforms.
+I used these metrics as examples to check the profit metrics:
+Investment:	 £100,000 
+Investment Type:	Product Placement
+Conversion Rate:	2%
+Product Price:	 £5.00 
+
+![Excel Analysis Placeholder](/assets/images/excel-sql-comparison.png)
+![SQL Analysis Placeholder](/assets/images/sql-analysis-output.png)
 
 ### Analysis by Views Per Video
-- Music channels demonstrated the highest average views per video (2.1M), followed by Entertainment (1.8M)
-- Gaming channels showed lower views per video but higher content frequency
-- Channels focusing on quality over quantity showed stronger per-video performance
+![Excel Analysis Placeholder](/assets/images/views-per-video.png)
+
+- Mark Ronson has unmatched reach and impact, Jessie J & Dua Lipa have extraordinary  reach.
+- If the marketing strategy doesn't coordinate well with these artists, then Mrwhosetheboss,  Sidemen & Gorillaz offer great ROI.
+- *Mark Ronson's reach may be misleading due to the low number of videos(20) and the success of the song "Uptown Funk", which is the reason for his high engagement rate
 
 ### Analysis by Total Views
-- Entertainment category leads with 43% of total views across all channels
-- Music category comes second with 32% of total view share
-- Highly specialized niches showed lower overall views but higher engagement rates
+![Excel Analysis Placeholder](/assets/images/views.png)
+
+- Pursue Dua Lipa as a flagship marketing channel if budget allows - the ROI potential significantly outperforms all other options.
+- Woody & Kleiny offers the second-best performance among UK channels with strong audience engagement.
+- DisneyChannelUK and DisneyJuniorUK offer specialized family audience targeting if relevant to your product.
 
 ### Analysis by Video Output
-- Gaming channels produce 3.2x more videos than the average channel
-- Educational channels maintain consistent posting schedules
-- Vlog-style channels show the highest variance in video frequency
+![Excel Analysis Placeholder](/assets/images/videos.png)
 
+- Primary Content Split: Create a multi-video series across Jelly (entertainment focus) and BBC (news/credibility focus) for maximum reach across different audience segments.
+- Sports Integration: Include Liverpool FC and/or Man City for sports audience penetration, especially if product has lifestyle or performance aspects.
+- Youth & Culture Series: Partner with GRM Daily and YOGSCAST for younger, culturally engaged demographics.
+  
 ### Analysis by Subscribers
-- Top 10 channels account for 36% of all subscribers in the dataset
-- Mid-tier channels (positions 30-60) show the fastest growth rates
-- Category preference follows clear demographic patterns
+![Excel Analysis Placeholder](/assets/images/subscribers.png)
+
+- Top Tier: Dua Lipa & Sidemen & Dan Rhodes | Mid-Tier: DanTDM & NoCopyrightSounds  | Budget-Friendly: KSI & Mrwhosetheboss & Jelly & Ali-A
+- I suggest using multiple youtubers from different tiers, for example:
+- From Top- Tier: Sidemen, From Mid-Tier: DanTDM, From Budget-Friendly: KSI & Mrwhosetheboss
 
 ### Category-Specific Insights
 
 #### Entertainment Category
-- Highest overall subscriber base (48M combined subscribers)
-- Broadest audience demographic spread
-- Best ROI potential for general consumer products
+![Excel Analysis Placeholder](/assets/images/entertainment.png)
+
+- If maximizing potential revenue and overall audience reach is the priority, Dan Rhodes is the best option with 11M views and £1,015,315 profit.
+- Sidemen - While not the highest in views, they have the best engagement rate at 82.6% with an exceptional profit of £1,633,831.
+- Julius Dein & Niko Omilana - Excellent engagement (68.7% and 58.8% respectively) and high profit (£536,751 and £336,322).
+- MoreSidemen - Strong engagement at 50.4% with solid £319,649 profit, making them another strong contender.
 
 #### Music Category
-- Highest engagement rate (2.4x the average)
-- Strong correlation between video production value and performance
-- Optimal for promotional partnerships
+![Excel Analysis Placeholder](/assets/images/entertainment.png)
+
+- Jessie J and Dua Lipa show astronomically high ROI, putting Engagement Rate into consideration, Jessie J shows to be the clear winner.
+- And Little Mix & Gorillaz are also great options with Little Mix being the better investment option.
 
 #### Gaming Category
-- Most devoted follower base (highest subscriber-to-view conversion)
-- Greatest content frequency (avg. 3.8 videos weekly)
-- Best for sustained marketing campaigns
+![Excel Analysis Placeholder](/assets/images/entertainment.png)
 
-![Category Comparison Placeholder]
+- If maximizing potential revenue and overall audience reach is the priority, DanTDM is the best option.
+- LDShadowLady - While not the highest in views, she has the best engagement rate at with a strong profit.
+- Grian & TommyInnit - Excellent engagement and high profit.
+
+
 
 ## 📝 Conclusion
-
-This analysis of the UK's top 100 YouTube channels reveals several significant insights for content creators, marketers, and platform analysts:
-
-1. **Quality vs. Quantity Trade-off**: Channels producing fewer, higher-quality videos generally achieve better per-video performance metrics than those pursuing high-frequency posting strategies.
-
-2. **Category Performance Variance**: While Entertainment channels dominate in overall subscriber count and total views, Music channels demonstrate superior engagement rates, and Gaming channels excel in audience loyalty and content frequency.
-
-3. **Investment Potential**: Based on our ROI modeling, mid-sized channels (500K-2M subscribers) in specialized niches often present better marketing investment opportunities than mega-channels, offering more engaged audiences at lower partnership costs.
-
-4. **Platform Evolution**: The data suggests YouTube's algorithm increasingly rewards sustained viewer engagement over raw view counts, pointing to a strategic shift favoring channels that maintain consistent viewer session duration.
-
-5. **UK Market Distinction**: Compared to global trends, UK YouTube creators show stronger performance in educational and comedy categories, reflecting cultural viewing preferences.
-
-For content creators and marketers, these findings highlight the importance of strategic channel positioning, content cadence optimization, and niche selection when building a YouTube presence. Future research could expand this analysis to track performance changes over time and examine the impact of platform policy changes on creator success metrics.
+I have gained a lot of skills and experiences from this project, ranging fro
 
 ### Next Steps
 
