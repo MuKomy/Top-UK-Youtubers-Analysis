@@ -2,6 +2,8 @@
 
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
+For content creators and marketers, these findings highlight the importance of strategic channel positioning, content cadence optimization, and niche selection when building a YouTube presence.
+
 **Tech Stack:** Python, Microsoft SQL Server, Excel, Power BI
 ## Table of Contents
 
@@ -271,9 +273,6 @@ Product Price:	 £5.00
 - If maximizing potential revenue and overall audience reach is the priority, DanTDM is the best option.
 - LDShadowLady - While not the highest in views, she has the best engagement rate at with a strong profit.
 - Grian & TommyInnit - Excellent engagement and high profit.
-
-## 📝 Conclusion
-For content creators and marketers, these findings highlight the importance of strategic channel positioning, content cadence optimization, and niche selection when building a YouTube presence.
 
 ## 👨‍💻 Skills Developed
 Through this comprehensive project, I've developed and demonstrated proficiency in several critical data analysis skills:
