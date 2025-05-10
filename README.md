@@ -7,12 +7,19 @@ An in-depth data exploration of the UK's most influential content creators on Yo
 
 - [Project Overview](#-project-overview)
 - [Data Extraction Process](#-data-extraction-process)
-- [Data Testing in Microsoft SQL Server](#-api-reference)
-- [Power BI Visualization & Metrics](#-power-bi-visualization-&-metrics)
-- [Excel Analysis & Business Modeling](#-excel-analysis-&-business-modeling)
+- [Data Testing in Microsoft SQL Server](#-data-testing-in-microsoft-sql-server)
+- [Power BI Visualization & Metrics](#-power-bi-visualization---metrics)
+- [Excel Analysis & Business Modeling](#-excel-analysis---business-modeling)
 - [In-Depth Analysis Findings](#-in-depth-analysis-findings)
-    - [Comparison (Excel - SQL)](##-comparison-excel---sql-)
-    - [Power BI Visualization & Metrics](#-troubleshooting)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Analysis by Views Per Video](#analysis-by-views-per-video)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+    - [Comparison (Excel - SQL)](#comparison-excel---sql)
+
 ## 📊 Project Overview
 
 This project offers a comprehensive analysis of the top 100 UK-based YouTube channels, examining their subscriber counts, total views, video output, engagement rates, and potential commercial value. By leveraging data analytics, I've uncovered insights about content strategy effectiveness across different niches and identified patterns in viewer engagement.
