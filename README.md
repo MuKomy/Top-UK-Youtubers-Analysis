@@ -1,4 +1,4 @@
-# 📹 Top UK YouTubers Analysis
+# Top UK YouTubers Analysis
 
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
