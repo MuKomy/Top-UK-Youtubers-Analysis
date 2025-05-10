@@ -43,6 +43,8 @@ FROM
 	youtube_data_view
 )
 SELECT 
+	channel_name,
+	total_subscribers,
 	ROUND(views_per_video* @Conversion_Rate * @Product_Price,0) as potential_revenue
 FROM
 	potential_revenue_cte
