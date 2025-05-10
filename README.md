@@ -1,5 +1,14 @@
 # 📹 Top UK YouTubers Analysis
-[Link to Installation](`#project-overview`)
+## Table of Contents
+- [Installation](#installation)
+- [Installation](#installation-2)
+- [Configuration](#configuration)
+- [API Reference](#api-reference)
+- [Troubleshooting](#troubleshooting)
+
+
+[Link to Installation](#project-overview)
+[Link to Installation](`#data-extraction-process`)
 
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
@@ -22,7 +31,7 @@ The extraction process was implemented in Python using the `google-api-python-cl
 ## 🧪 Data Testing in Microsoft SQL Server
 
 To ensure data quality and reliability, I conducted systematic testing in SQL Server:
-
+## Installation-2
 ```sql
 /*
 Data Quality Tests:
