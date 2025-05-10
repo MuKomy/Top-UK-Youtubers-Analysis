@@ -6,13 +6,13 @@ An in-depth data exploration of the UK's most influential content creators on Yo
 ## Table of Contents
 
 - [Project Overview](#-project-overview)
-- [Data Extraction Process](#data-extraction-process)
-- [Data Testing in Microsoft SQL Server](#api-reference)
-- [Power BI Visualization & Metrics](#power-bi-visualization-&-metrics)
-- [Excel Analysis & Business Modeling](#excel-analysis-&-business-modeling)
-- [In-Depth Analysis Findings](#in-depth-analysis-findings)
-    - [Comparison (Excel - SQL)](##comparison-excel---sql)
-    - [Power BI Visualization & Metrics](#troubleshooting)
+- [Data Extraction Process](#-data-extraction-process)
+- [Data Testing in Microsoft SQL Server](#-api-reference)
+- [Power BI Visualization & Metrics](#-power-bi-visualization-&-metrics)
+- [Excel Analysis & Business Modeling](#-excel-analysis-&-business-modeling)
+- [In-Depth Analysis Findings](#-in-depth-analysis-findings)
+    - [Comparison (Excel - SQL)](##-comparison-excel---sql-)
+    - [Power BI Visualization & Metrics](#-troubleshooting)
 ## 📊 Project Overview
 
 This project offers a comprehensive analysis of the top 100 UK-based YouTube channels, examining their subscriber counts, total views, video output, engagement rates, and potential commercial value. By leveraging data analytics, I've uncovered insights about content strategy effectiveness across different niches and identified patterns in viewer engagement.
@@ -197,10 +197,15 @@ ORDER BY
 ### Comparison (Excel - SQL)
 Cross-validation between Excel and SQL calculations showed perfect alignment, confirming computational accuracy across platforms.
 I used these metrics as examples to check the profit metrics:
+
 Investment:	 £100,000 
+
 Investment Type:	Product Placement
+
 Conversion Rate:	2%
+
 Product Price:	 £5.00 
+
 
 ![Excel Analysis Placeholder](/assets/images/excel-sql-comparison.png)
 ![SQL Analysis Placeholder](/assets/images/sql-analysis-output.png)
