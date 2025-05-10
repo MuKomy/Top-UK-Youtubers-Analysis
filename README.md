@@ -1,21 +1,17 @@
 # 📹 Top UK YouTubers Analysis
 
-
-
-
-
 An in-depth data exploration of the UK's most influential content creators on YouTube, analyzing metrics, engagement, and potential business value.
 
 **Tech Stack:** Python, Microsoft SQL Server, Excel, Power BI
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#-project-overview)
 - [Data Extraction Process](#data-extraction-process)
 - [Data Testing in Microsoft SQL Server](#api-reference)
 - [Power BI Visualization & Metrics](#power-bi-visualization-&-metrics)
 - [Excel Analysis & Business Modeling](#excel-analysis-&-business-modeling)
 - [In-Depth Analysis Findings](#in-depth-analysis-findings)
-    - [Comparison (Excel - SQL)](#comparison-(excel---sql))
+    - [Comparison (Excel - SQL)](##comparison-excel---sql)
     - [Power BI Visualization & Metrics](#troubleshooting)
 ## 📊 Project Overview
 
