@@ -262,13 +262,13 @@ Product Price:	 £5.00
 - MoreSidemen - Strong engagement at 50.4% with solid £319,649 profit, making them another strong contender.
 
 #### Music Category
-![Excel Analysis Placeholder](/assets/images/entertainment.png)
+![Excel Analysis Placeholder](/assets/images/music.png)
 
 - Jessie J and Dua Lipa show astronomically high ROI, putting Engagement Rate into consideration, Jessie J shows to be the clear winner.
 - And Little Mix & Gorillaz are also great options with Little Mix being the better investment option.
 
 #### Gaming Category
-![Excel Analysis Placeholder](/assets/images/entertainment.png)
+![Excel Analysis Placeholder](/assets/images/gaming.png)
 
 - If maximizing potential revenue and overall audience reach is the priority, DanTDM is the best option.
 - LDShadowLady - While not the highest in views, she has the best engagement rate at with a strong profit.
